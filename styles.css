@@ -17,29 +17,72 @@
     width: 800px;
     height: 150px;
     display: grid;
-    grid-template-rows: 50px 150px;
+    grid-template-rows: 50px 100px;
 }
 
 .top-bar {
     display: grid; 
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: 40px 500px 40px 60px 160px;
     align-items: center; 
+    padding-left: 24px; 
 }
 
 .header svg {
-    width: 18px; 
+    width: 18px;
+    justify-self: center;  
 }
 
 #query {
-    width: 400px; 
+    width: 400px;
+    height: 24px; 
+    background-color: #e2e8f0;
+    border: none;
+    border-radius: 10px; 
 }
 
-.header img {
+.top-bar img {
     width: 40px; 
+    justify-self: center; 
 }
 
 .header h2 {
-    font-size: 18px; 
+    font-size: 14px; 
+    padding-left: 8px; 
+}
+
+.btm-bar {
+    display: grid;
+    grid-template-columns: 80px 390px 110px 110px 110px;
+    align-items: center; 
+    padding-left: 24px; 
+}
+
+.btm-bar img {
+    width: 72px; 
+    justify-self: center; 
+}
+
+.btm-bar p {
+    color: black; 
+    font-size: 12px; 
+    font-weight: 700;
+    margin: 0;
+    padding-left: 0;
+}
+
+.btm-bar h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.btm-bar button {
+    width: 80px; 
+    height: 32px;
+    background-color: #0284c7;
+    color: white; 
+    border: none;
+    border-radius: 20px; 
+    justify-self: space-around;
 }
 
 .sidebar {
@@ -91,5 +134,5 @@
     grid-area: 2 / 2 / 3 / 3;
     width: 800px;
     height: 850px;
-    background-color: #d1d5db;
+    background-color: #e2e8f0;
 }
