@@ -16,6 +16,30 @@
     grid-area: 1 / 2 / 2 / 3;
     width: 800px;
     height: 150px;
+    display: grid;
+    grid-template-rows: 50px 150px;
+}
+
+.top-bar {
+    display: grid; 
+    grid-template-columns: repeat(5, auto);
+    align-items: center; 
+}
+
+.header svg {
+    width: 18px; 
+}
+
+#query {
+    width: 400px; 
+}
+
+.header img {
+    width: 40px; 
+}
+
+.header h2 {
+    font-size: 18px; 
 }
 
 .sidebar {
