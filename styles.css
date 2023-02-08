@@ -135,4 +135,32 @@
     width: 800px;
     height: 850px;
     background-color: #e2e8f0;
+    display: grid;
+    grid-template-rows: 850px; 
+    grid-template-columns: 300px 300px;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: 50px 233px 233px 233px 51px;
+    grid-template-columns: 400px 400px
+}
+
+.projects h1 {
+    font-size: 16px; 
+}
+
+.projects .card {
+    width: 300px; 
+    height: 200px; 
+    border-left: 3px darkgoldenrod; 
+    box-shadow: 2px 2px 2px gray
+}
+
+.projects p {
+    color: slategray
+}
+
+.projects svg {
+    width: 18px;
 }
